@@ -49,3 +49,11 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
+.footer {
+    background-color: dimgray;
+    font-size: 11px;
+    color: white;
+}
+div {
+    display: block;
+}
