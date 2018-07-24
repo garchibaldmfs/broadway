@@ -5,7 +5,6 @@ element.style {
     text-align: center;
     color: white;
 }
-user agent stylesheet
 div {
     display: block;
 }
@@ -18,7 +17,6 @@ body {
 h1, h2, h3 {
     font-weight: bold;
 }
-user agent stylesheet
 h1 {
     display: block;
     font-size: 2em;
@@ -34,4 +32,20 @@ p {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+}
+.supporting h2 {
+    font-size: 32px;
+}
+.supporting {
+    text-align: center;
+}
+
+.btn-nav {
+    font-size: 18px;
+    color: white;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
 }
